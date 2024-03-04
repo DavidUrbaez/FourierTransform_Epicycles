@@ -1,0 +1,42 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(black, #2f2f2f, black) fixed
+}
+
+canvas {
+    display: block;
+}
+
+section.content {
+    /* position: absolute; */
+    /* top: 10vh; */
+    width: 98%;
+    margin: 0 0;
+    height: 80vh;
+    /* padding: 5vh; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: max(10vh, 4rem);
+    /*min-height: 80vh;*/
+}
+
+#CanvasDiv canvas {
+    border-radius: 20px;
+}
+
+section.content h1 {
+    font-size: 5vh;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-variant: small-caps;
+    font-weight: bold;
+    line-height: 8vh;
+    margin: 0;
+    width: 100%;
+}
