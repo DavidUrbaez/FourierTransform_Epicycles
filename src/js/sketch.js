@@ -63,8 +63,8 @@ function setup() {
     background(0);
     fill(255);
     textAlign(CENTER);
-    textSize(64);
-    text("Draw Something!", width / 2, height / 2);
+    textSize(30);
+    text("Click here to start drawing!", width / 2, height / 2);
 }
 
 function epicycles(x, y, rotation, fourier) {
